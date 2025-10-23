@@ -1,16 +1,33 @@
-# React + Vite
+# 🧠 Segment Saver App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite application to create and save audience segments based on user traits. This project was built as part of the CustomerLabs React Test (Screen 1.0).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- "Save segment" button triggers a popup
+- Popup includes:
+  - Text input for segment name
+  - Dropdown to select schema traits
+  - "+Add new schema" link to add multiple dropdowns
+- Dropdown options dynamically update to exclude already selected traits
+- Sends segment data to server in JSON format via [Webhook.site](https://webhook.site)
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- JavaScript (ES6+)
+- CSS
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/segment-saver-app.git
+cd segment-saver-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
