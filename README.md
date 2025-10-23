@@ -1,8 +1,8 @@
-# 🧠 Segment Saver App
+# Segment Saver App
 
 A simple React + Vite application to create and save audience segments based on user traits. This project was built as part of the CustomerLabs React Test (Screen 1.0).
 
-## 🚀 Features
+## Features
 
 - "Save segment" button triggers a popup
 - Popup includes:
@@ -12,18 +12,18 @@ A simple React + Vite application to create and save audience segments based on 
 - Dropdown options dynamically update to exclude already selected traits
 - Sends segment data to server in JSON format via [Webhook.site](https://webhook.site)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - JavaScript (ES6+)
 - CSS
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/segment-saver-app.git
+git clone https://github.com/vikramr16/segment-saver-app.git
 cd segment-saver-app
 
 # Install dependencies
